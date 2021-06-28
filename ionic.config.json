@@ -1,0 +1,7 @@
+{
+  "name": "afwa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
