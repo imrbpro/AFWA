@@ -1,0 +1,28 @@
+<ion-header>
+  
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="form-container">
+    <img src="../../assets/imgs/app.png" class="headimg"/>
+        <ion-input placeholder="Email" class="txtbox"><ion-icon name="mail" class="iconbg"></ion-icon></ion-input>
+        <ion-input placeholder="Password" class="txtbox"><ion-icon src="../../assets/icon/lock.svg" class="iconbg"></ion-icon></ion-input> 
+        <br>
+        <br>
+        <br>
+        <div class="no-border">
+        <ion-checkbox color="secondary"></ion-checkbox>&nbsp;
+        <ion-label> I Agree The <a>Term and Conditions</a></ion-label>
+        </div>
+        
+        <div class="no-border">
+        <ion-checkbox color="secondary"></ion-checkbox>&nbsp;
+        <ion-label> I Agree The <a>Privacy Policy</a></ion-label>
+        </div>
+        
+        <ion-button color="success" expand="full">Register</ion-button>
+        <center><p>Already have an account <a (click)="OpenSignInForm()">Sign In</a></p></center>
+      </div>
+  </div>
+</ion-content>

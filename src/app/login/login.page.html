@@ -1,0 +1,20 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="form-container">
+    <img src="../../assets/imgs/app.png" class="headimg"/>
+        <ion-input placeholder="Email" class="txtbox"><ion-icon name="mail" class="iconbg"></ion-icon></ion-input>
+        <ion-input placeholder="Password" class="txtbox"><ion-icon src="../../assets/icon/lock.svg" class="iconbg"></ion-icon></ion-input> 
+        <a  style="float: right;" (click)="OpenRegisterForm()">Forgot Password</a> 
+        <hr/> 
+        <hr/> 
+        <hr/> 
+        <hr/> 
+        <hr/>
+        <ion-button color="success" expand="full">Login</ion-button>
+        <center><p>Dont have a Account <a (click)="OpenRegisterForm()">Register</a></p></center>
+      </div>
+  </div>
+</ion-content>
