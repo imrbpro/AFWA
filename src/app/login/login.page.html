@@ -7,14 +7,15 @@
     <img src="../../assets/imgs/app.png" class="headimg"/>
         <ion-input placeholder="Email" class="txtbox"><ion-icon name="mail" class="iconbg"></ion-icon></ion-input>
         <ion-input placeholder="Password" class="txtbox"><ion-icon src="../../assets/icon/lock.svg" class="iconbg"></ion-icon></ion-input> 
+        <br>
         <a  style="float: right;" (click)="OpenRegisterForm()">Forgot Password</a> 
         <hr/> 
         <hr/> 
         <hr/> 
         <hr/> 
         <hr/>
-        <ion-button color="success" expand="full">Login</ion-button>
-        <center><p>Dont have a Account <a (click)="OpenRegisterForm()">Register</a></p></center>
+        <ion-button color="success" expand="full" (click)="ShowAllRestaurants()">Login</ion-button>
+        <p style="text-align: center;">Dont have a Account <a (click)="OpenRegisterForm()">Register</a></p>
       </div>
   </div>
 </ion-content>

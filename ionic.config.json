@@ -1,7 +1,8 @@
 {
   "name": "afwa",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

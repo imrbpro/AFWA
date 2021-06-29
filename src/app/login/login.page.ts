@@ -19,4 +19,7 @@ export class LoginPage implements OnInit {
   this.router.navigateByUrl('/register'); 
   }
 
+  ShowAllRestaurants(){
+    this.router.navigateByUrl('/tabs');
+  }
 }
